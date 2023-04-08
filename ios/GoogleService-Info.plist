@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>747767169117-jv5t9sfqd4rcfi0s17kuf8qf1i4e7ift.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.747767169117-jv5t9sfqd4rcfi0s17kuf8qf1i4e7ift</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>747767169117-ll41olm5s6qq4pdcp0nmn3nopkap9qkr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAzXFZk4T6eQouTVvnRzFklRBb4qL5PbU4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>747767169117</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brainyapps.farmsittingservices</string>
+	<key>PROJECT_ID</key>
+	<string>donnashelby-62622</string>
+	<key>STORAGE_BUCKET</key>
+	<string>donnashelby-62622.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:747767169117:ios:25a676d92be165f1808db4</string>
+</dict>
+</plist>

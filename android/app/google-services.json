@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "747767169117",
+    "project_id": "donnashelby-62622",
+    "storage_bucket": "donnashelby-62622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747767169117:android:421b99911973135a808db4",
+        "android_client_info": {
+          "package_name": "com.brainyapps.farmsittingservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747767169117-m6hu258l6i2b0t16jcmdbeqffntqib92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Pzfq36qYZt3WWubu9nBTElHvo5ZLFCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747767169117-m6hu258l6i2b0t16jcmdbeqffntqib92.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "747767169117-47mb75hna2m4vc1g5pfm3gtgo6fa2psi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.brainyapps.farmsittingservice"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'Shelby_Donna' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
+
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  use_native_modules!
+  #pod 'react-native-video', :path => '../node_modules/react-native-video'
+  #pod 'react-native-config', :path => '../node_modules/react-native-config'
+
+
+
+
+  target 'Shelby_DonnaTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  
+  #use_flipper!
+  #post_install do |installer|
+  #  flipper_post_install(installer)
+  #end
+end
+
+target 'Shelby_Donna-tvOS' do
+  # Pods for Shelby_Donna-tvOS
+
+  target 'Shelby_Donna-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
